@@ -321,7 +321,7 @@ def attack(player, enemies, window, score, hits, chat):
                             player.change_animation = True
                             player.activate_cooldown(1)
                             chat.add("Slime took damage")
-                            print("Slime Dude's HP:", emy.health)
+                            #print("Slime Dude's HP:", emy.health)
                             
                             if emy.health <= 0:
                                 score.score += 50
@@ -833,7 +833,7 @@ def Game():
                 player.click_flag += 1
                 if player.click_flag == 1:
                     pos = pygame.mouse.get_pos()
-                    print(pos)
+                    #print(pos)
                     if bm.containspoint(pos, respawn.hitbox):
                         player.reset_death()
                         score.score = 0
