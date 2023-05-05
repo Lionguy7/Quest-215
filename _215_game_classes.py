@@ -32,7 +32,7 @@ class GameClasses():
         current_slot = 25 #Current slot in player's hotbar
         click_flag = 0 #If the player has left clicked in on this tick
         right_click_flag = 0 #If the player has right clicked in this tick
-        health = 1 #Player's health
+        health = 20 #Player's health
         max_health = 20 #Player's maximum hp
         animation_tick = 0 #Counts of ticks to determine end/reset of animation
         frame = 0 #Index of the current animation. Advances 1 every 3 ticks 
@@ -45,18 +45,15 @@ class GameClasses():
         hotbar = {25: {"name":"sword", "num": 1},    #The 6 slots displayed at the bottom
                26: {"name": "pickaxe", "num": 1},    #of the game screen, that holds which
                27: {"name": "axe", "num": 1},        #items the player can interact with/use
-               28: {"name": "Apple", "num": 20},       #during gameplay.
-               29: {"name": "Stone Wall", "num": 99},
+               28: {"name": "null", "num": 20},       #during gameplay.
+               29: {"name": "null", "num": 99},
                30: {"name": "null", "num": 3}
                }
         
         #A dictionary of the player's items.
         #Format: {<inventory_slot>: "name": "item name", "num": amount the player has}
-        inventory = {1: {"name":"Rock", "num": 99},
-                     2: {"name":"Log", "num": 99},
-                     3: {"name":"Cottonball", "num": 99},
-                     4: {"name":"Red Flower", "num": 99},
-                     5: {"name":"Floor Tile Wood", "num": 99},
+        inventory = {1: {"name":"Rock", "num": 3},
+                     2: {"name":"Log", "num": 2},
         }
         
         item = "sword" #Player's current item, i.e., what item is used upon click/right click
