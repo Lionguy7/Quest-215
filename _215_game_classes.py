@@ -277,9 +277,9 @@ class GameClasses():
             if self.facing == "left":
                 box = ((self.collision_hitbox[0] - 20), self.y - 20, 30, 90)
                 
-            pygame.draw.rect(window, GREEN, box, 1)
-            pygame.draw.rect(window, RED, (self.hitbox), 1)
-            pygame.draw.rect(window, RED, (self.collision_hitbox), 1)
+            #pygame.draw.rect(window, GREEN, box, 1)
+            #pygame.draw.rect(window, RED, (self.hitbox), 1)
+            #pygame.draw.rect(window, RED, (self.collision_hitbox), 1)
             
             return box
         
@@ -619,8 +619,8 @@ START OF CLASS SLIME """
                                  self.hitbox[2] + self.aware_range,
                                  self.hitbox[3] + self.aware_range)
                 
-                pygame.draw.rect(window, RED, self.hitbox, 1)
-                pygame.draw.rect(window, GREEN, self.aware_box, 1)
+                #pygame.draw.rect(window, RED, self.hitbox, 1)
+                #pygame.draw.rect(window, GREEN, self.aware_box, 1)
                 
                 self.animation_tick += 1 #Increase animation tick
             
@@ -902,8 +902,8 @@ START OF CLASS SLIME """
             window.blit(self.icon, self.origin)
             
             #Draw for debugging
-            pygame.draw.rect(window, BLUE, self.area, 1)
-            pygame.draw.rect(window, RED, self.hitbox, 1)
+            #pygame.draw.rect(window, BLUE, self.area, 1)
+            #pygame.draw.rect(window, RED, self.hitbox, 1)
             self.display_health(window)
             
             
@@ -1409,8 +1409,9 @@ START OF CLASS SLIME """
                 
             def display(self, window):
                 #Function that displays the inventory slot's hitbox. Used for debugging
-                pygame.draw.rect(window, RED, (self.hitbox[0],
-                                               self.hitbox[1], 48, 48), 1)
+                #pygame.draw.rect(window, RED, (self.hitbox[0],
+                #                               self.hitbox[1], 48, 48), 1)
+                return
 
                 
         #Constructor for GameClasses.Inventory
