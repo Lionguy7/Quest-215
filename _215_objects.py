@@ -2,7 +2,7 @@
 """
 Created on Mon Apr  3 18:25:25 2023
 
-@author: alexe
+@author: Lionguy7
 """
 from _215_sprites import Sprites
 from _215_game_classes import GameClasses as gc
