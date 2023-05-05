@@ -875,8 +875,8 @@ def Game():
             window.blit(respawn_label, respawn.pos)
             
             window.blit(quit_label, quit_button.pos)
-            pygame.draw.rect(window, RED, (respawn.hitbox), 1)
-            pygame.draw.rect(window, RED, (quit_button.hitbox), 1)
+            #pygame.draw.rect(window, RED, (respawn.hitbox), 1)
+            #pygame.draw.rect(window, RED, (quit_button.hitbox), 1)
             
             pygame.display.update()
             
