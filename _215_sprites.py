@@ -36,7 +36,6 @@ class Sprites():
         axe = pygame.image.load("axe5.png")
         pickaxe = pygame.image.load("pickaxe1.png")
         stone_path = pygame.image.load("stone_path1x1.png")
-        stone_bricks = pygame.image.load("stone_wall.png")
         wood_gate = pygame.image.load("wood_gate.png")
         wood_gate_open = pygame.image.load("wood_gate_open.png")
         wood_planks = pygame.image.load("wood_planks.png")
