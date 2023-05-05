@@ -2,7 +2,7 @@
 """
 Created on Thu Mar  2 09:41:32 2023
 
-@author: alexe
+@author: Lionguy7
 """
 
 class BoxMeta():
