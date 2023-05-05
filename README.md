@@ -6,4 +6,6 @@ I have deleted a few pngs that were not in the file at all, but there are still 
 If you want, you can download only what you need by looking through the code and downloading only the files you see,
 or you can just download them all. I don't really care. This is just a display of the project history and various experiments.
 
+Additionally, you may need to rename some of the files so their extenstions are lowercase pngs, not uppercase.
+
 The actual game is run from the file "new_test.py".
