@@ -2,7 +2,7 @@
 """
 Created on Sun Mar 12 19:52:19 2023
 
-@author: alexe
+@author: Lionguy7
 """
 
 from _215_sprites import Sprites
