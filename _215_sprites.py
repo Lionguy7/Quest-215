@@ -82,22 +82,3 @@ class Sprites():
         stone_brick_right_top = pygame.image.load("Stone_Wall_Top_Right.png")
         stone_brick_left_bottom = pygame.image.load("Stone_Wall_Bottom_Left.png")
         stone_brick_left_top = pygame.image.load("Stone_Wall_Top_Left.png")
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
