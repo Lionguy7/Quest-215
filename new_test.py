@@ -2,18 +2,18 @@
 """
 Created on Tue Mar  7 11:00:12 2023
 
-@author: alexe
+@author: Lionguy7
 """
 
 # -*- coding: utf-8 -*-
 """
 Created on Thu Mar  2 21:07:09 2023
 
-@author: alexe
+@author: Lionguy7
 """
 
 #------------------------------------------
-"""
+""" lol ignore this
 TO DO LIST ===============================
 Add more ground sprites
 Make Pause menu
