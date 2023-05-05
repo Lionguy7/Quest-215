@@ -2,7 +2,7 @@
 """
 Created on Sun Mar 12 19:53:53 2023
 
-@author: alexe
+@author: Lionguy7
 """
 
 import pygame
