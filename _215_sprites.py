@@ -26,7 +26,6 @@ class Sprites():
         treeS = pygame.image.load("tree6.png")
         treeA = pygame.image.load("tree_apple2.png")
         log_pile = pygame.image.load("log_pile.png")
-        bg1 = pygame.image.load("bg1.png")
         bush1 = pygame.image.load("bush1.png")
         flower_yellow = pygame.image.load("flower1.png")
         flower_red = pygame.image.load("red_flower2.png")
