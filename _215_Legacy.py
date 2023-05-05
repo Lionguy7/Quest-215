@@ -2,7 +2,7 @@
 """
 Created on Fri Mar 24 13:19:34 2023
 
-@author: alexe
+@author: Lionguy7
 """
 from boxmeta import BoxMeta as bm
 
